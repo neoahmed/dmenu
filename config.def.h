@@ -6,13 +6,13 @@ static int fuzzy  = 1;                      /* -F  option; if 0, dmenu doesn't u
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Liberation Mono:size=13"
+	"Liberation Mono:weight=bold:size=13"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 		      /*     fg         bg       */
 	[SchemeNorm] = { "#d4be98", "#282828" },
-	[SchemeSel]  = { "#282828", "#928374" },
+	[SchemeSel]  = { "#282828", "#7c6f64" },
 	[SchemeOut]  = { "#282828", "#7daea3" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
